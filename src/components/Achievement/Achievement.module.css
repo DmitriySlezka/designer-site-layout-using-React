@@ -1,0 +1,28 @@
+.achievement {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #ffffff;
+   position: relative;
+}
+
+.info-block {
+   margin-left: 20px;
+}
+
+.count {
+   font-size: 18px;
+   margin-bottom: 5px;
+}
+
+.text {
+   font-size: 12px;
+   text-transform: uppercase;
+   white-space: nowrap;
+}
+
+@media screen and (max-width: 991.98px) {
+   .achievement {
+      margin-bottom: 30px;
+   }
+}

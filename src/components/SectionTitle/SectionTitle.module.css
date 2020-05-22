@@ -1,0 +1,19 @@
+.section-title {
+   margin-bottom: 30px;
+}
+
+.section-title--white {
+   color: #000000;
+}
+
+.section-title--white {
+   color: #ffffff;
+}
+
+.section-title--left {
+   text-align: left;
+}
+
+.section-title--center {
+   text-align: center;
+}

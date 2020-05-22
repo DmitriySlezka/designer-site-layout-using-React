@@ -1,0 +1,30 @@
+.section-subtitle {
+   font-family: "Nunito Sans", sans-serif;
+   font-size: 16px;
+   margin-bottom: 30px;
+   max-width: 540px;
+}
+
+.section-subtitle--gray {
+   color: #787878;
+}
+
+.section-subtitle--white {
+   color: #000000;
+}
+
+.section-subtitle--white {
+   color: #ffffff;
+}
+
+.section-subtitle--left {
+   text-align: left;
+}
+
+.section-subtitle--center {
+   text-align: center;
+}
+
+.section-subtitle--no-margin-bottom {
+   margin-bottom: 0px;
+}
