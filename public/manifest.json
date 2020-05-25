@@ -1,0 +1,18 @@
+{
+  "short_name": "Amelia Woods",
+  "name": "Amelia Woods - Web Designer Site",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "128x128 64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "../src/img/logo.png",
+      "type": "image/png",
+      "sizes": "31x25"
+    }
+  ],
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

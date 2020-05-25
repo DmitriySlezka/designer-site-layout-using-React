@@ -1,0 +1,19 @@
+.link {
+   display: block;
+   color: #bcbcbc;
+   font-family: "Nunito Sans", sans-serif;
+   font-size: 15px;
+
+   &:hover {
+   color: #ffffff;
+   }
+}
+
+
+
+@media screen and (max-width: 767px) {
+   .link {
+      font-size: 20px;
+      text-align: center;
+   }
+}

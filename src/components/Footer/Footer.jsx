@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Footer.module.css";
 import classnames from "classnames/bind";
-import SectionBlock from "../../components/SectionBlock/SectionBlock";
-import FooterLink from "./../FooterLink/FooterLink.js";
+import SectionBlock from "../SectionBlock/SectionBlock.jsx";
+import FooterLink from "../FooterLink/FooterLink.jsx";
 
 const cx = classnames.bind(styles);
 

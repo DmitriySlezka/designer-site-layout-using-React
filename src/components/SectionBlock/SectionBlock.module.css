@@ -1,50 +1,60 @@
 .section-block {
-   padding: 100px 80px;
+  padding: 100px 80px;
 }
 
 .section-block--white {
-   background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .section-block--black {
-   background-color: #141414;
+  background-color: #141414;
 }
 
 .section-block--gray {
-   background-color: #e1e1e1;
+  background-color: #e1e1e1;
 }
 
 .section-block--light-gray {
-   background-color: #f6f6f6;
+  background-color: #f6f6f6;
 }
 
 .section-block--dark-gray {
-   background-color: #3e3e3e;
+  background-color: #3e3e3e;
 }
 
 .section-block--green {
-   background-color: #10c9c3;
+  background-color: #10c9c3;
 }
 
 .section-block--center {
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
+  text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .section-block--left {
-   text-align: left;
+  text-align: left;
 }
 
-@media screen and (max-width: 991.98px) {
-   .section-block {
-      padding: 50px 40px;
-   }
+@media screen and (max-width: 991px) {
+  .section-block {
+    padding: 50px 40px;
+  }
 }
 
-@media screen and (max-width: 575.98px) {
-   .section-block {
-      padding: 30px 20px;
-   }
+@media screen and (max-width: 575px) {
+  .section-block {
+    padding: 30px 20px;
+  }
 }

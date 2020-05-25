@@ -1,14 +1,12 @@
-.About__Img {
-   min-height: 400px;
-   height: 100%;
-   width: 100%;
-   background: #e1e1e1 url("./../../img/girl-photo.jpeg") top no-repeat;
-   background-size: cover;
+.about-img {
+  min-height: 400px;
+  height: 100%;
+  width: 100%;
+  background: #e1e1e1 url("./img/girl-photo.jpeg") top no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover;
 }
 
-.SignatureImg {
-   max-width: 225px;
-}
-
-@media screen and (max-width: 575px) {
+.signature-img {
+  max-width: 225px;
 }

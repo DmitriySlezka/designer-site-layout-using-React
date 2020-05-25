@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import styles from "./Home.module.css";
-import SectionTitle from "../../components/SectionTitle/SectionTitle";
-import SectionSubtitle from "../../components/SectionSubtitle/SectionSubtitle";
-import Portfolio from "../../components/Portfolio/Portfolio";
-import SectionBlock from "../../components/SectionBlock/SectionBlock.js";
+import SectionTitle from "../../components/SectionTitle/SectionTitle.jsx";
+import SectionSubtitle from "../../components/SectionSubtitle/SectionSubtitle.jsx";
+import Portfolio from "../../components/Portfolio/Portfolio.jsx";
+import SectionBlock from "../../components/SectionBlock/SectionBlock.jsx";
 
 export default class Home extends Component {
    render() {

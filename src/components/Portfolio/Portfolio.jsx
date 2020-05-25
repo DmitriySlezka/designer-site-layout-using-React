@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Portfolio.module.css";
 import classnames from "classnames/bind";
-import PortfolioItem from "../PortfolioItem/PortfolioItem";
+import PortfolioItem from "../PortfolioItem/PortfolioItem.jsx";
 
 import project1 from "../../img/project1.jpg";
 import project2 from "../../img/project2.jpg";

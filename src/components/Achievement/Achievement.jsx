@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 import PropTypes from "prop-types";
 import styles from "./Achievement.module.css";
-import classnames from 'classnames/bind'
+import classnames from "classnames/bind";
 
 const cx = classnames.bind(styles);
 
@@ -25,4 +25,3 @@ Achievement.propTypes = {
    count: PropTypes.string,
    text: PropTypes.string,
 };
-

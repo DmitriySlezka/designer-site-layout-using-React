@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./About.module.css";
+import classnames from "classnames/bind";
 
 import SectionTitle from "../../components/SectionTitle/SectionTitle";
 import SectionSubtitle from "../../components/SectionSubtitle/SectionSubtitle";
@@ -14,6 +15,8 @@ import star from "../../components/Achievement/img/star.png";
 import like from "../../components/Achievement/img/like.png";
 import signature from "../../img/signature.png";
 
+const cx = classnames.bind(styles);
+
 export default class About extends Component {
    render() {
       return (
@@ -22,7 +25,7 @@ export default class About extends Component {
                <Container>
                   <Row>
                      <Col xs={12} sm={{ span: 6, offset: 3 }}>
-                        <SectionTitle as='h1' color="white" textAlign="center">
+                        <SectionTitle as="h1" color="white" textAlign="center">
                            Amelia Woods
                         </SectionTitle>
                         <SectionSubtitle color="white" textAlign="center" noMarginBottom>
@@ -76,7 +79,7 @@ export default class About extends Component {
             <Container fluid>
                <Row noGutters>
                   <Col xs={12} lg={6}>
-                     <div className={styles.About__Img}></div>
+                     <div className={cx("about-img")}></div>
                   </Col>
                   <Col xs={12} lg={6}>
                      <SectionBlock bgColor="light-gray">
@@ -92,7 +95,7 @@ export default class About extends Component {
                            So the above May stars cattle fruitful face shall. Tree it, winged. Every
                            signs male firmament us. Morning him.
                         </SectionSubtitle>
-                        <img className={styles.SignatureImg} src={signature} alt="Signature" />
+                        <img className={cx("signature-img")} src={signature} alt="Signature" />
                      </SectionBlock>
                   </Col>
                </Row>
@@ -102,8 +105,8 @@ export default class About extends Component {
                <Container>
                   <Row>
                      <Col xs={12} md={{ span: 6, offset: 3 }}>
-                        <SectionTitle textAlign='center'> Need a Project? </SectionTitle>
-                        <SectionSubtitle textAlign='center'>
+                        <SectionTitle textAlign="center"> Need a Project? </SectionTitle>
+                        <SectionSubtitle textAlign="center">
                            Let us know what you're looking for in an agency. We'll take a look and
                            see if this could be the start of something beautiful.
                         </SectionSubtitle>
