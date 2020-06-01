@@ -11,7 +11,7 @@ import project4 from "../../img/project4.png";
 
 const cx = classnames.bind(styles);
 
-export default function Portfolio() {
+const Portfolio = () => {
    return (
       <Container fluid className={cx("portfolio")}>
          <Row noGutters="true">
@@ -54,4 +54,6 @@ export default function Portfolio() {
          </Row>
       </Container>
    );
-}
+};
+
+export default Portfolio;

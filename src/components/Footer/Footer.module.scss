@@ -1,3 +1,5 @@
+@import '../../css/theme';
+
 .info {
    color: #bcbcbc;
    font-family: "Nunito Sans", sans-serif;
@@ -5,6 +7,10 @@
    & h4 {
       color: #ffffff;
    }
+}
+
+.footer {
+   background-color: $color3;
 }
 
 .links .social-links {

@@ -1,14 +1,37 @@
+@import '../../css/theme.scss';
+
 .button {
+   display: inline-block;
+   position: relative;
    text-align: center;
    padding: 20px 50px;
-   background-color: #10c9c3;
+   background-color: $color1;
    color: #ffffff;
    font-size: 12px;
    font-weight: bold;
    text-transform: uppercase;
    transition: all 0.3s ease;
+   border: none;
+   cursor: pointer;
    
    &:hover {
-   background-color: #0aa49f;
+   background-color: $color1darken;
+   }
+
+   &[disabled] {
+      opacity: 0.5;
+      cursor: not-allowed;
+   }
+
+   &.active {
+      background-color: $color1lighten;
+   }
+
+   &.invert {
+      background-color: $color1invert;
    }
 }
+
+a:hover {
+      color: white;
+   }

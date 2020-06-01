@@ -1,14 +1,14 @@
 import React from "react";
 import styles from "./PortfolioItem.module.css";
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
 import classnames from "classnames/bind";
 
 const cx = classnames.bind(styles);
 
-export default function PortfolioItem({ href, image }) {
+const PortfolioItem = ({ href, image }) => {
    return (
       <a className={cx("item")} href={href}>
-         <img src={image} alt='project' />
+         <img src={image} alt="project" />
       </a>
    );
 }
@@ -16,4 +16,6 @@ export default function PortfolioItem({ href, image }) {
 PortfolioItem.propTypes = {
    href: PropTypes.string,
    image: PropTypes.string,
-}
+};
+
+export default PortfolioItem;

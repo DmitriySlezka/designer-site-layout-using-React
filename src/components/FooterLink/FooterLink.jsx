@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 
 const cx = classnames.bind(styles);
 
-export default function FooterLink({ className, href, children }) {
+ const FooterLink = ({ className, href, children }) => {
    return (
       <a href={href} className={cx(className, "link")}>
          {children}
@@ -18,3 +18,5 @@ FooterLink.propTypes = {
    href: PropTypes.string,
    children: PropTypes.any,
 };
+
+export default FooterLink;

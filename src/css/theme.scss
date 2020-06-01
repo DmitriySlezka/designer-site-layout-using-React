@@ -1,9 +1,13 @@
-$color1: #26262a;
-$color2: #f8dd5a;
+// Main Colors
+$color1: #10c9c3;
+$color2: #f6f6f6;
+$color3: #141414;
 
-$bg-color: #ffffff;
+// For Buttons
+$color1darken: darken(#10c9c3, 10%);
+$color1lighten: lighten(#10c9c3, 10%);
+$color1invert: invert(#10c9c3);
 
-$main-font: 'Open Sans', sans-serif;
 
 
 

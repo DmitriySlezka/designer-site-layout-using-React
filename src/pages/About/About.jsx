@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./About.module.css";
 import classnames from "classnames/bind";
@@ -17,105 +17,116 @@ import signature from "../../img/signature.png";
 
 const cx = classnames.bind(styles);
 
-export default class About extends Component {
-   render() {
-      return (
-         <>
-            <SectionBlock bgColor="dark-gray">
-               <Container>
-                  <Row>
-                     <Col xs={12} sm={{ span: 6, offset: 3 }}>
-                        <SectionTitle as="h1" color="white" textAlign="center">
-                           Amelia Woods
-                        </SectionTitle>
-                        <SectionSubtitle color="white" textAlign="center" noMarginBottom>
-                           I am a Graphic & Web Designer based in New York, specializing in User
-                           Interface Design and Development
-                        </SectionSubtitle>
-                     </Col>
-                  </Row>
-               </Container>
-            </SectionBlock>
-
-            <SectionBlock bgColor="green">
-               <Container>
-                  <Row>
-                     <Col xs={12} sm={6} lg={3}>
-                        <Achievement
-                           imgSrc={portfolio}
-                           imgAlt="Portfolio"
-                           count="132"
-                           text="projects completed"
-                        />
-                     </Col>
-                     <Col xs={12} sm={6} lg={3}>
-                        <Achievement
-                           imgSrc={clock}
-                           imgAlt="Portfolio"
-                           count="7465"
-                           text="working hours"
-                        />
-                     </Col>
-                     <Col xs={12} sm={6} lg={3}>
-                        <Achievement
-                           imgSrc={star}
-                           imgAlt="Portfolio"
-                           count="130"
-                           text="positive feedbacks"
-                        />
-                     </Col>
-                     <Col xs={12} sm={6} lg={3}>
-                        <Achievement
-                           imgSrc={like}
-                           imgAlt="Portfolio"
-                           count="130"
-                           text="happy clients"
-                        />
-                     </Col>
-                  </Row>
-               </Container>
-            </SectionBlock>
-
-            <Container fluid>
-               <Row noGutters>
-                  <Col xs={12} lg={6}>
-                     <div className={cx("about-img")}></div>
-                  </Col>
-                  <Col xs={12} lg={6}>
-                     <SectionBlock bgColor="light-gray">
-                        <SectionTitle color="black" textAlign="left">
-                           About Me
-                        </SectionTitle>
-                        <SectionSubtitle textAlign="left">
-                           Given let waters air sea had you'll, may seed abundantly fish. Were,
-                           you'll earth forth winged above brought. Own darkness they're him can't
-                           fourth sea place have.
-                        </SectionSubtitle>
-                        <SectionSubtitle textAlign="left">
-                           So the above May stars cattle fruitful face shall. Tree it, winged. Every
-                           signs male firmament us. Morning him.
-                        </SectionSubtitle>
-                        <img className={cx("signature-img")} src={signature} alt="Signature" />
-                     </SectionBlock>
+const About = () => {
+   return (
+      <>
+         <SectionBlock bgColor="dark-gray">
+            <Container>
+               <Row>
+                  <Col xs={12} sm={{ span: 6, offset: 3 }}>
+                     <SectionTitle as="h1" color="white" textAlign="center">
+                        Amelia Woods
+                     </SectionTitle>
+                     <SectionSubtitle
+                        color="white"
+                        textAlign="center"
+                        noMarginBottom>
+                        I am a Graphic & Web Designer based in New York,
+                        specializing in User Interface Design and Development
+                     </SectionSubtitle>
                   </Col>
                </Row>
             </Container>
+         </SectionBlock>
 
-            <SectionBlock textAlign="center">
-               <Container>
-                  <Row>
-                     <Col xs={12} md={{ span: 6, offset: 3 }}>
-                        <SectionTitle textAlign="center"> Need a Project? </SectionTitle>
-                        <SectionSubtitle textAlign="center">
-                           Let us know what you're looking for in an agency. We'll take a look and
-                           see if this could be the start of something beautiful.
-                        </SectionSubtitle>
-                        <Button> Let's Talk </Button>
-                     </Col>
-                  </Row>
-               </Container>
-            </SectionBlock>
-         </>
-      );
-   }
-}
+         <SectionBlock bgColor="green">
+            <Container>
+               <Row>
+                  <Col xs={12} sm={6} lg={3}>
+                     <Achievement
+                        imgSrc={portfolio}
+                        imgAlt="Portfolio"
+                        count="100"
+                        text="projects completed"
+                     />
+                  </Col>
+                  <Col xs={12} sm={6} lg={3}>
+                     <Achievement
+                        imgSrc={clock}
+                        imgAlt="Portfolio"
+                        count="10000"
+                        text="working hours"
+                     />
+                  </Col>
+                  <Col xs={12} sm={6} lg={3}>
+                     <Achievement
+                        imgSrc={star}
+                        imgAlt="Portfolio"
+                        count="100"
+                        text="positive feedbacks"
+                     />
+                  </Col>
+                  <Col xs={12} sm={6} lg={3}>
+                     <Achievement
+                        imgSrc={like}
+                        imgAlt="Portfolio"
+                        count="100"
+                        text="happy clients"
+                     />
+                  </Col>
+               </Row>
+            </Container>
+         </SectionBlock>
+
+         <Container fluid>
+            <Row noGutters>
+               <Col xs={12} lg={6}>
+                  <div className={cx("about-img")}></div>
+               </Col>
+               <Col xs={12} lg={6}>
+                  <SectionBlock bgColor="light-gray">
+                     <SectionTitle color="black" textAlign="left">
+                        About Me
+                     </SectionTitle>
+                     <SectionSubtitle textAlign="left">
+                        Given let waters air sea had you'll, may seed abundantly
+                        fish. Were, you'll earth forth winged above brought. Own
+                        darkness they're him can't fourth sea place have.
+                     </SectionSubtitle>
+                     <SectionSubtitle textAlign="left">
+                        So the above May stars cattle fruitful face shall. Tree
+                        it, winged. Every signs male firmament us. Morning him.
+                     </SectionSubtitle>
+                     <img
+                        className={cx("signature-img")}
+                        src={signature}
+                        alt="Signature"
+                     />
+                  </SectionBlock>
+               </Col>
+            </Row>
+         </Container>
+
+         <SectionBlock textAlign="center">
+            <Container>
+               <Row>
+                  <Col xs={12} md={{ span: 6, offset: 3 }}>
+                     <SectionTitle textAlign="center">
+                        {" "}
+                        Need a Project?{" "}
+                     </SectionTitle>
+                     <SectionSubtitle textAlign="center">
+                        Let us know what you're looking for in an agency. We'll
+                        take a look and see if this could be the start of
+                        something beautiful.
+                     </SectionSubtitle>
+                     <Button href="/contact"> Let's Talk </Button>
+                  </Col>
+               </Row>
+            </Container>
+         </SectionBlock>
+      </>
+   );
+};
+
+export default About;

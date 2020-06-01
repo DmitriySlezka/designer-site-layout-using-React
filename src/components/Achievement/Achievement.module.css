@@ -35,3 +35,20 @@
     margin-bottom: 30px;
   }
 }
+
+@media screen and (max-width: 576px) {
+  .achievement {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .count {
+    font-size: 20px;
+  }
+  .text {
+    font-size: 16px;
+    text-transform: uppercase;
+    white-space: nowrap;
+  }
+}

@@ -36,41 +36,38 @@
           flex-wrap: wrap;
 }
 
-.form-name {
-  width: 48%;
-}
-
-.form-email {
-  width: 48%;
-}
-
-.form-title {
-  width: 100%;
-}
-
-.form-comment {
-  width: 100%;
-}
-
-input {
+.input {
   margin-bottom: 30px;
-  height: 50px;
-  padding: 18px 20px;
-  border: none;
+}
+
+.input-name {
+  width: 48%;
+}
+
+.input-email {
+  width: 48%;
+}
+
+.input-title {
+  width: 100%;
+}
+
+.input-comment {
+  width: 100%;
 }
 
 textarea {
-  padding: 18px 20px;
-  border: none;
-  resize: none;
   margin-bottom: 30px;
 }
 
 @media screen and (max-width: 991px) {
-  .form-name {
+  .input-name {
     width: 100%;
   }
-  .form-email {
+  .input-email {
+    width: 100%;
+  }
+  .contact-button {
     width: 100%;
   }
 }

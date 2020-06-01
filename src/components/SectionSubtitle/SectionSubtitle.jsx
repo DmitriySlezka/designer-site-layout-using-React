@@ -5,7 +5,13 @@ import styles from "./SectionSubtitle.module.css";
 
 const cx = classnames.bind(styles);
 
-export default function SectionSubtitle({ className, children, color, textAlign, noMarginBottom }) {
+const SectionSubtitle = ({
+   className,
+   children,
+   color,
+   textAlign,
+   noMarginBottom,
+}) => {
    return (
       <div
          className={cx(
@@ -18,7 +24,7 @@ export default function SectionSubtitle({ className, children, color, textAlign,
          {children}
       </div>
    );
-}
+};
 
 SectionSubtitle.propTypes = {
    className: PropTypes.string,
@@ -31,3 +37,5 @@ SectionSubtitle.propTypes = {
 SectionSubtitle.defaultProps = {
    color: "gray",
 };
+
+export default SectionSubtitle;

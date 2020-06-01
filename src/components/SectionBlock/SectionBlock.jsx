@@ -5,8 +5,8 @@ import styles from "./SectionBlock.module.css";
 
 const cx = classnames.bind(styles);
 
-export default function SectionBlock({ as, className, bgColor, textAlign, children }) {
-   const Base = as || "div";
+const SectionBlock = ({ as, className, bgColor, textAlign, children }) => {
+   const Base = as || "section";
 
    return (
       <Base
@@ -14,12 +14,12 @@ export default function SectionBlock({ as, className, bgColor, textAlign, childr
             className,
             "section-block",
             { [`section-block--${bgColor}`]: bgColor },
-            { [`section-block--${textAlign}`]: textAlign },
+            { [`section-block--${textAlign}`]: textAlign }
          )}>
          {children}
       </Base>
    );
-}
+};
 
 SectionBlock.propTypes = {
    as: PropTypes.element,
@@ -32,3 +32,5 @@ SectionBlock.propTypes = {
 SectionBlock.defaultProps = {
    bgColor: "white",
 };
+
+export default SectionBlock;

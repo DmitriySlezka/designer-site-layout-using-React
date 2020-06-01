@@ -5,7 +5,7 @@ import styles from "./SectionTitle.module.css";
 
 const cx = classnames.bind(styles);
 
-export default function SectionTitle({ as, className, children, color, textAlign }) {
+const SectionTitle = ({ as, className, children, color, textAlign }) => {
    
    const Base = as || "h2";
 
@@ -34,3 +34,4 @@ SectionTitle.defaultProps = {
    color: "black",
 };
 
+export default SectionTitle;

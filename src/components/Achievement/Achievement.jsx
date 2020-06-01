@@ -5,7 +5,7 @@ import classnames from "classnames/bind";
 
 const cx = classnames.bind(styles);
 
-export default function Achievement({ imgSrc, imgAlt, count, text }) {
+const Achievement = ({ imgSrc, imgAlt, count, text }) => {
    return (
       <div className={cx("achievement")}>
          <div className={cx("img")}>
@@ -17,7 +17,7 @@ export default function Achievement({ imgSrc, imgAlt, count, text }) {
          </div>
       </div>
    );
-}
+};
 
 Achievement.propTypes = {
    imgSrc: PropTypes.string,
@@ -25,3 +25,5 @@ Achievement.propTypes = {
    count: PropTypes.string,
    text: PropTypes.string,
 };
+
+export default Achievement;
