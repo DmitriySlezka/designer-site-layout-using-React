@@ -7,9 +7,12 @@ import FooterLink from "../FooterLink/FooterLink.jsx";
 
 const cx = classnames.bind(styles);
 
-const Footer = () => {
+const Footer = ({ className }) => {
    return (
-      <SectionBlock as="footer" className={cx("footer")}>
+      <SectionBlock
+         as="footer"
+         className={cx("footer", className)}
+         bgColor="black">
          <Container>
             <Row>
                <Col xs={12} md={2}>

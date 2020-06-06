@@ -1,19 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Header.module.css";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "../../pages/Home/Home.jsx";
-import About from "../../pages/About/About.jsx";
-import Contact from "../../pages/Contact/Contact.jsx";
 import logo from "../../img/logo.png";
 import classnames from "classnames/bind";
 
 const cx = classnames.bind(styles);
 
-const Header = () => {
+const Header = ({ className }) => {
    return (
       <>
-         <header className={cx("header")}>
+         <header className={cx("header", className)}>
             <Container>
                <Row>
                   <Col xs={3} md={1}>
@@ -39,14 +35,6 @@ const Header = () => {
                </Row>
             </Container>
          </header>
-
-         <Router>
-            <Switch>
-               <Route exact path="/" component={Home} />
-               <Route exact path="/about" component={About} />
-               <Route exact path="/contact" component={Contact} />
-            </Switch>
-         </Router>
       </>
    );
 };

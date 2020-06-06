@@ -22,7 +22,7 @@ const SectionBlock = ({ as, className, bgColor, textAlign, children }) => {
 };
 
 SectionBlock.propTypes = {
-   as: PropTypes.element,
+   as: PropTypes.node,
    className: PropTypes.string,
    bgColor: PropTypes.string,
    textAlign: PropTypes.string,
