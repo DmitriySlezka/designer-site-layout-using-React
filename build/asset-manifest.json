@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c171151c.chunk.css",
+    "main.js": "/static/js/main.15c28843.chunk.js",
+    "main.js.map": "/static/js/main.15c28843.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7d54ab6f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7d54ab6f.js.map",
+    "static/css/2.69121389.chunk.css": "/static/css/2.69121389.chunk.css",
+    "static/js/2.d72e1756.chunk.js": "/static/js/2.d72e1756.chunk.js",
+    "static/js/2.d72e1756.chunk.js.map": "/static/js/2.d72e1756.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.88e6bd182ada05d5b486edccb03c5974.js": "/precache-manifest.88e6bd182ada05d5b486edccb03c5974.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.69121389.chunk.css.map": "/static/css/2.69121389.chunk.css.map",
+    "static/css/main.c171151c.chunk.css.map": "/static/css/main.c171151c.chunk.css.map",
+    "static/js/2.d72e1756.chunk.js.LICENSE.txt": "/static/js/2.d72e1756.chunk.js.LICENSE.txt",
+    "static/media/About.module.css": "/static/media/girl-photo.1a51c82f.jpeg",
+    "static/media/project1.jpg": "/static/media/project1.50117d98.jpg",
+    "static/media/project2.jpg": "/static/media/project2.1d992a2c.jpg",
+    "static/media/project3.png": "/static/media/project3.2d213830.png",
+    "static/media/project4.png": "/static/media/project4.c4936093.png",
+    "static/media/signature.png": "/static/media/signature.a1552752.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d54ab6f.js",
+    "static/css/2.69121389.chunk.css",
+    "static/js/2.d72e1756.chunk.js",
+    "static/css/main.c171151c.chunk.css",
+    "static/js/main.15c28843.chunk.js"
+  ]
+}
