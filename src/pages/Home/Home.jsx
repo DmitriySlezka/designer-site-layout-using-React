@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import SectionTitle from "../../components/SectionTitle/SectionTitle.jsx";
 import SectionSubtitle from "../../components/SectionSubtitle/SectionSubtitle.jsx";

@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Contact.module.css";
 import Button from "../../components/Button/Button.jsx";

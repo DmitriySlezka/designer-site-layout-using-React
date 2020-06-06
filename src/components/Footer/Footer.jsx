@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styles from "./Footer.module.css";
 import classnames from "classnames/bind";
